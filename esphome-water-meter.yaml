@@ -1,5 +1,6 @@
 ---
 substitutions:
+  led_gpio: GPIO8
   # For water one of: CCF, ft³, gal, L, m³
   volume_unit: 'gal'
 
@@ -15,5 +16,5 @@ switch:
   - platform: gpio
     id: led
     pin:
-      number: GPIO2
+      number: ${led_gpio}
       inverted: true
