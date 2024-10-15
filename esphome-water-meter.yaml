@@ -1,6 +1,6 @@
 ---
 substitutions:
-  led_gpio: GPIO8
+  led_gpio: GPIO15
   # For water one of: CCF, ft³, gal, L, m³
   volume_unit: 'gal'
 
